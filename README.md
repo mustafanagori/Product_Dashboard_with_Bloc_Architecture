@@ -3,16 +3,29 @@
 A New Web Application of Product dashboard using BLoc
 
 ## Getting Started
+Folder Structure and Reasoning
 
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   lib/
+        core/
+            routes/
+                app_route.dart           →  navigation (GoRouter)
+            theme/
+                app_theme.dart           → Material 3 light/dark theme configuration
+                theme_cubit.dart         → Theme switching logic using Cubit
+            widgets/                   → shared UI components
+        features/
+          product/                   → Product management feature module
+            data/
+             datasources/           → Local/remote JSON or API sources
+             repositories/          → Implementation of domain repositories
+            domain/
+             entities/              → Core business models 
+             repository/            → Abstract repository interfaces
+            presentation/
+             blocs/                 → ProductCubit and ProductState for BLoC logic
+             pages/                 → Screens like Dashboard, Products, Settings, Details
+             widgets/               → Reusable UI parts (table, modals)
+        main.dart                    → Entry point, initializes ThemeCubit and route    
 
 Way to run the project
 --------------------
