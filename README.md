@@ -1,10 +1,9 @@
 # product_dashboard
 
-A new Flutter project.
+A New Web Application of Product dashboard using BLoc
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -15,6 +14,35 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+Way to run the project
+--------------------
+git clone https://github.com/mustafanagori/Product_Dashboard_with_Bloc_Architecture.git
+flutter pub get
+flutter run -d chrome
+
+
+Package
+----------
+State Management 	-> flutter_bloc
+Routing 	->	go_router
+Charts 	->	fl_chart
+Data Table 	->	data_table_2
+Theme	Material 3 	-> (Light / Dark mode)
+local products.json
+
+Developed by
+
+Ghulam Mustafa 
+mustafanagori89@gmail.com
+
+Features
+
+Product CRUD operations
+Sort and Filter by category, stock, or name
+Search functionality
+Dark & Light theme toggle
+Dashboard analytics with charts
+Local data persiste
 
 <img width="1388" height="799" alt="dark theme 1" src="https://github.com/user-attachments/assets/d7d9a4ad-c202-457a-898c-52b7207107a2" />
 <img width="1371" height="923" alt="add product" src="https://github.com/user-attachments/assets/75c337e1-6fb6-4475-a745-663592ee8a19" />
