@@ -5,27 +5,28 @@ A New Web Application of Product dashboard using BLoc
 ## Getting Started
 Folder Structure and Reasoning
 
-   lib/
+    lib/
         core/
             routes/
-                app_route.dart           →  navigation (GoRouter)
+                app_route.dart             navigation (GoRouter)
             theme/
-                app_theme.dart           → Material 3 light/dark theme configuration
-                theme_cubit.dart         → Theme switching logic using Cubit
-            widgets/                   → shared UI components
+                app_theme.dart            Material 3 light/dark theme configuration
+                theme_cubit.dart          Theme switching logic using Cubit
+            widgets/                    shared UI components
         features/
-          product/                   → Product management feature module
+          product/                    Product management feature module
             data/
-             datasources/           → Local/remote JSON or API sources
-             repositories/          → Implementation of domain repositories
+             datasources/            Local/remote JSON or API sources
+             repositories/           Implementation of domain repositories
             domain/
-             entities/              → Core business models 
-             repository/            → Abstract repository interfaces
+             entities/               Core business models 
+             repository/             Abstract repository interfaces
             presentation/
-             blocs/                 → ProductCubit and ProductState for BLoC logic
-             pages/                 → Screens like Dashboard, Products, Settings, Details
-             widgets/               → Reusable UI parts (table, modals)
-        main.dart                    → Entry point, initializes ThemeCubit and route    
+             blocs/                  ProductCubit and ProductState for BLoC logic
+             pages/                  Screens like Dashboard, Products, Settings, Details
+             widgets/                Reusable UI parts (table, modals)
+        main.dart                     Entry point, initializes ThemeCubit and route    
+
 
 Way to run the project
 --------------------
